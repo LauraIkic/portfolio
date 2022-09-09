@@ -1,0 +1,80 @@
+<template>
+  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative ">
+
+    <div class="flex justify-center ">
+      <p class="text-white md:text-5xl text-3xl">
+        Work
+      </p>
+      <h2 class="text-[#FC01B0]">
+        IT
+      </h2>
+    </div>
+
+    <div class="border-l-2 mt-10 py-10">
+
+      <!-- Card 1 -->
+      <div class="relative group hover:-translate-y-3 transition duration-200 mb-10">
+        <div class="ml-10  absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 inset-x-1  bg-gradient-to-r from-purple-600 to-pink-600 absolute -left-0.5 transform -translate-x-2/4 rounded-full z-10  md:mt-8"></div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1  inset-x-1  bg-gradient-to-r from-purple-600 to-pink-600 absolute  z-0 opacity-50 mt-10"></div>
+
+        <div class= "ml-10  relative h-40  ring-1 ring-white rounded leading-none flex items-top justify-start ">
+
+          <div class="text-white flex flex-col justify-end p-4">
+            <p class="text-lg">
+              Frontend developer
+            </p>
+            <p class="text-2xl">
+              Grand Garage
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+
+      <div class="relative group hover:-translate-y-3 transition duration-200">
+        <div class="ml-10  absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 inset-x-1  bg-gradient-to-r from-purple-600 to-pink-600 absolute -left-0.5 transform -translate-x-2/4 rounded-full z-10  md:mt-8"></div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1  inset-x-1  bg-gradient-to-r from-purple-600 to-pink-600 absolute  z-0 opacity-50 mt-10"></div>
+
+        <div class= "ml-10  relative h-40  ring-1 ring-white rounded leading-none flex items-top justify-start">
+
+          <div class="text-white flex flex-col justify-end p-4">
+            <p class="text-lg">
+              Frontend developer
+            </p>
+            <p class="text-2xl">
+              Cap.finisher-club
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+<!--    <div class="" >
+      <div class="absolute inset-x-1 bottom-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-100 h-5 ">
+      </div>
+      <div class=" absolute inset-x-1 bottom-0 p-5   flex justify-center space-x-2 ">
+        <a href="https://github.com/LauraIkic/portfolio">
+        </a>
+      </div>
+    </div>-->
+  </div>
+</template>
+
+<script>
+import {defineComponent} from "vue";
+
+export default defineComponent({
+})
+</script>
