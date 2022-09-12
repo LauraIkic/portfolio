@@ -1,6 +1,5 @@
 <template>
   <div class="relative flex flex-col w-full transition duration-500 ease-in-out">
-    <About/>
     <Contact/>
   </div>
 </template>
