@@ -8,7 +8,7 @@
         Get in touch! <br>
       </h3>
       <br>
-      <div class="flex justify-center pb-10">
+      <div class="flex justify-center pb-10 mt-10">
         <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
           <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
           <!-- Top glass gradient -->

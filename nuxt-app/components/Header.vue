@@ -10,7 +10,7 @@
           md:py-0
           px-4
           text-lg text-white
-          bg-transparent
+          bg-[#0b1229]
         "
     >
       <div>
