@@ -8,13 +8,15 @@
           w-full
           py-4
           md:py-0
-          px-4
+          px-10
           text-lg text-white
           bg-[#0b1229]
+          shadow-2xl
+          absolut
         "
     >
       <div>
-        <a href="#">
+        <a href="/">
           L
         </a>
       </div>
@@ -35,33 +37,39 @@
         />
       </svg>
 
-      <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+      <div class="hidden w-full md:flex md:items-center md:w-auto mr-10 mt-3" id="menu">
         <ul
             class="
               pt-4
-              text-base text-gray-700
+              text-base text-gray-500
               md:flex
               md:justify-between
-              md:pt-0"
+              md:pt-0
+              mt-3"
         >
           <li>
-            <a class="md:p-4 py-2 block " href="#"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white"  href="#about"
             >About</a
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block " href="#"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#work"
             >Work</a
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block " href="#"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#projects"
             >Projects</a
             >
           </li>
           <li>
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#contact"
+            >Contact</a
+            >
+          </li>
+          <li>
             <a
-                class="md:p-4 py-2 block  text-[#CC3883]"
+                class="md:p-2 mr-4 py-2 block  text-[#CC3883] link-underline link-underline-black"
                 href="#"
             >RESUME</a
             >
@@ -88,7 +96,7 @@ button.addEventListener('click', () => {
 <style scoped>
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#ffffff, #ffffff);
   background-size: 0 1px;
   background-position: 0 100%;
   background-repeat: no-repeat;

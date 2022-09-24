@@ -1,14 +1,10 @@
 <template>
-  <div class="bg-[#0b1229]">
-    <Header/>
-    <slot />
-  </div>
+  TEST
 </template>
-
 
 <script>
 export default {
-  name: "default"
+  name: "_"
 }
 </script>
 

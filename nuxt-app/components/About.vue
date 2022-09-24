@@ -15,7 +15,7 @@
     </div>
 
   </div>
-  <div class="h-screen">
+<!--  <div class="h-screen">
     <div class="flex flex-col justify-center w-full h-full text-center">
       <h2 class="text-[#CC3883]">
         ABOUT ME
@@ -36,7 +36,7 @@
       </div>
       <br>
     </div>
-  </div>
+  </div>-->
 </template>
 <script>
 import {defineComponent} from "vue";
