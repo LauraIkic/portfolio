@@ -84,7 +84,7 @@ export default defineComponent({
       },
       {
         title: 'Parkify app',
-        image: '../assets/img/parkify.png',
+        image: 'public/img/wave1.png ',
         icon: '',
         tools: 'Swift',
         link: ''

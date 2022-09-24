@@ -13,7 +13,7 @@
         </p>
       </div>
     </div>
-    <img class=" z-0  lg:-mt-96 md:-mt-40 " src="public/img/laptop.jpg " />
+    <img class=" z-0  lg:-mt-96 md:-mt-40 " src="public/img/wave1.png " />
   </div>
 </template>
 

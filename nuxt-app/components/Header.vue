@@ -9,13 +9,10 @@
           px-10
           sticky top-0
           text-lg text-white
-
           shadow-2xl
           z-50
-          lg:mt-3
-          sm:mt-0
           bg-[#001727]
-
+          pt-5
         "
     >
       <div>
@@ -40,7 +37,7 @@
         />
       </svg>
 
-      <div class="hidden w-full md:flex md:items-center md:w-auto lg:mr-10 mt-1 py-3" id="menu">
+      <div class="hidden w-full md:flex md:items-center md:w-auto lg:mr-10  py-3" id="menu">
         <ul
             class="
               pt-2
