@@ -49,7 +49,7 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: '../assets/img/tamago.png',
+        image: '../public/img/tamago.png',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'

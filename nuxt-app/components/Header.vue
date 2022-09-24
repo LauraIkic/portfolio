@@ -37,7 +37,7 @@
         />
       </svg>
 
-      <div class="hidden w-full md:flex md:items-center md:w-auto mr-10 mt-3" id="menu">
+      <div class="hidden w-full md:flex md:items-center md:w-auto mr-10 mt-1 py-3" id="menu">
         <ul
             class="
               pt-4

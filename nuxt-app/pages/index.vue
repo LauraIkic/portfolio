@@ -5,6 +5,7 @@
     <Work/>
     <ProjectSection/>
     <Contact/>
+
   </div>
 </template>
 

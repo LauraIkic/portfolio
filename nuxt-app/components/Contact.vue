@@ -125,7 +125,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   color: white;
-  box-shadow:0 0 20px 10px rgba(255, 255, 255, 0.46);
+  box-shadow:0 0 10px 5px rgba(255, 255, 255, 0.46);
   border-radius: 50%;
   position: relative;
   overflow: hidden;
