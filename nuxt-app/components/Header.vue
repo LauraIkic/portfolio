@@ -6,18 +6,21 @@
           items-center
           justify-between
           w-full
-          py-4
-          md:py-0
           px-10
+          sticky top-0
           text-lg text-white
-          bg-[#0b1229]
+
           shadow-2xl
-          absolut
+          z-50
+          lg:mt-3
+          sm:mt-0
+          bg-[#001727]
+
         "
     >
       <div>
         <a href="/">
-          L
+         L
         </a>
       </div>
 
@@ -37,39 +40,39 @@
         />
       </svg>
 
-      <div class="hidden w-full md:flex md:items-center md:w-auto mr-10 mt-1 py-3" id="menu">
+      <div class="hidden w-full md:flex md:items-center md:w-auto lg:mr-10 mt-1 py-3" id="menu">
         <ul
             class="
-              pt-4
+              pt-2
               text-base text-gray-500
               md:flex
               md:justify-between
               md:pt-0
-              mt-3"
+"
         >
           <li>
-            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white"  href="#about"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white"  href="#about" id="navBar1"
             >About</a
             >
           </li>
           <li>
-            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#work"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#work" id="navBar2"
             >Work</a
             >
           </li>
           <li>
-            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#projects"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#projects" id="navBar3"
             >Projects</a
             >
           </li>
           <li>
-            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#contact"
+            <a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#contact" id="navBar4"
             >Contact</a
             >
           </li>
           <li>
             <a
-                class="md:p-2 mr-4 py-2 block  text-[#CC3883] link-underline link-underline-black"
+                class="md:p-2 mr-4 py-2 block  text-[#ed52f9] link-underline link-underline-black" id="navBar5"
                 href="/resume.pdf" target="_blank"
             >RESUME</a
             >
@@ -82,14 +85,27 @@
 </template>
 
 <script>
-/*
-const button = document.querySelector('#menu-button');
-const menu = document.querySelector('#menu');
+
+import {defineComponent, onMounted} from 'vue'
+
+export default defineComponent({
+  setup(){
 
 
-button.addEventListener('click', () => {
-  menu.classList.toggle('hidden');
-});*/
+     onMounted (() => {
+       const button = document.querySelector('#menu-button');
+       const menu = document.querySelector('#menu');
+
+
+       button.addEventListener('click', () => {
+         menu.classList.toggle('hidden');
+       })
+     })
+    return{
+
+    }
+  }
+})
 
 </script>
 
@@ -104,7 +120,7 @@ button.addEventListener('click', () => {
 }
 
 .link-underline-black {
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, #F2C);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#ed52f9, #ed52f9);
 }
 
 .link-underline:hover {

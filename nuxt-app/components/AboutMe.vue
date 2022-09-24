@@ -1,17 +1,21 @@
 <template>
-    <div class="h-screen absolut" id="about">
-      <div class="flex flex-col justify-center w-full h-full text-center">
-        <h2 class="text-[#CC3883]">
-          ABOUT ME
+    <div class=" md:h-1/2  mb-10 lg:-mt-64 " id="about">
+      <div class="flex flex-col justify-center lg:h-1/2 text-center w-96 lg:w-1/3 mx-auto  bg-white rounded-2xl p-10 md:w-2/3 w-1/2 xl:w-1/2 lg:pb-30 ">
+        <h2 class="text-[#ed52f9]">
+          INFO
         </h2>
-        <h3 class="md:text-5xl leading-normal font-semibold text-white ease-in transition duration-300 sm:text-4xl">
-          & my work
+        <h3 class="lg:text-5xl leading-normal font-semibold text-[#0b1229] ease-in transition duration-300 text-4xl">
+          ABOUT ME
         </h3>
         <br>
-        <div class="w-96 mx-auto mt-2">
-          <p class="text-white ">
+        <div class="lg:p-10 ">
+          <p class="text-[#0b1229]">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
             dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
             dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

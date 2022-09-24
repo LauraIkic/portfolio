@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" id="contact">
   <div class="relative h-screen">
     <div class="flex flex-col justify-center w-full h-full text-center">
-      <h2 class="text-[#CC3883]">
+      <h2 class="text-[#ed52f9]">
         CONTACT
       </h2>
       <h3 class="leading-normal font-semibold text-white ease-in transition duration-300 text-4xl md:text-5xl">
@@ -57,7 +57,7 @@
 
 
       <div class="" id="#bottom">
-        <div class="absolute inset-x-1 bottom-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-100 h-5 ">
+        <div class="absolute inset-x-1 bottom-0 bg-gradient-to-r from-[#0096c9] to-[#a21faf] rounded-2xl blur-2xl opacity-100 h-5 ">
         </div>
 
         <div class=" absolute inset-x-1 bottom-0 p-5   flex justify-center space-x-2  ">
@@ -146,7 +146,7 @@ h1 {
   height: 100%;
   top: -90px;
   left: 0;
-  background: linear-gradient(-45deg, #ed1c94,#ffec1700);
+  background: linear-gradient(-45deg, #ed52f9,#ffec1700);
   position: absolute;
   transition: 0.5s;
 }

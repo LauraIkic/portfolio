@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#0b1229]">
+  <div class="bg-[#001727]">
     <Header/>
     <slot />
   </div>
