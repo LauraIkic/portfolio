@@ -6,7 +6,7 @@
       <h2 class="text-[#CC3883]">
         CONTACT
       </h2>
-      <h3 class="md:text-5xl leading-normal font-semibold text-white ease-in transition duration-300 sm:text-4xl">
+      <h3 class="leading-normal font-semibold text-white ease-in transition duration-300 text-4xl md:text-5xl">
         Get in touch! <br>
       </h3>
 <!--      <div class="flex justify-center pb-10 mt-10">
@@ -27,14 +27,33 @@
       </span>
         </a>
       </div>-->
-      <div class="hero mt-10">
-        <div class="social-links">
+
+
+      <ul role="list"
+          class="grid gap-20  grid-cols-2 gap-x-10  xl:gap-x-8 mt-20 md:w-96 w-80 mx-auto md:grid-cols-4 w-52">
+        <li  class="social-links ">
           <a href="https://www.instagram.com/laura__ikic/"><i class="fa fa-instagram z-10" style="font-size: 22px"></i></a>
-          <a href="https://github.com/LauraIkic"><i class="fa fa-github z-10" style="font-size: 22px"></i></a>
-          <a href="https://www.linkedin.com/in/laura-i-aa62b021a/"><i class="fa fa-linkedin-square z-10" style="font-size: 22px" ></i></a>
-          <a href="mailto:ikic.laura@gmx.at" ><i class="fa fa-envelope z-10" style="font-size: 22px" ></i></a>
-        </div>
-      </div>
+        </li>
+        <li  class="social-links">
+          <a href="https://www.instagram.com/laura__ikic/"><i class="fa fa-instagram z-10" style="font-size: 22px"></i></a>
+        </li>
+        <li  class="social-links">
+          <a href="https://www.instagram.com/laura__ikic/"><i class="fa fa-instagram z-10" style="font-size: 22px"></i></a>
+        </li>
+        <li  class="social-links">
+          <a href="https://www.instagram.com/laura__ikic/"><i class="fa fa-instagram z-10" style="font-size: 22px"></i></a>
+        </li>
+
+
+
+        <!--        <a href="https://www.instagram.com/laura__ikic/"><i class="fa fa-instagram z-10" style="font-size: 22px"></i></a>
+                <a href="https://github.com/LauraIkic"><i class="fa fa-github z-10" style="font-size: 22px"></i></a>
+                <a href="https://www.linkedin.com/in/laura-i-aa62b021a/"><i class="fa fa-linkedin-square z-10" style="font-size: 22px" ></i></a>
+                <a href="mailto:ikic.laura@gmx.at" ><i class="fa fa-envelope z-10" style="font-size: 22px" ></i></a>-->
+<!--        <li v-for="p in projects" :key="p.src" class="flex justify-center ">
+
+        </li>-->
+      </ul>
 
 
       <div class="" id="#bottom">
@@ -107,7 +126,6 @@ h1 {
   text-decoration: none;
   color: white;
   box-shadow:0 0 20px 10px rgba(255, 255, 255, 0.46);
-  margin: 0 30px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
