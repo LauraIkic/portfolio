@@ -70,7 +70,7 @@
           <li>
             <a
                 class="md:p-2 mr-4 py-2 block  text-[#CC3883] link-underline link-underline-black"
-                href="#"
+                href="/resume.pdf" target="_blank"
             >RESUME</a
             >
           </li>
