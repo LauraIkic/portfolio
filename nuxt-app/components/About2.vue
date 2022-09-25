@@ -1,15 +1,15 @@
 <template>
   <div class=" lg:h-screen h-full ">
-    <div class=" lg:mt-80 z-10 relative mt-60">
+    <div class="  z-10 relative mt-60">
       <div class="flex flex-col justify-evenly
-       lg:h-64 h-72 lg:w-1/2 mx-auto w-80 md:w-2/3">
+       lg:h-64 h-72 mx-auto w-80 md:w-2/3">
         <p class="lg:text-2xl text-white font-mono text-[#ed52f9] ">
           Hi, my name is
         </p>
-        <p class="lg:text-6xl text-white font-mono text-4xl">
+        <p class="lg:text-5xl text-white font-mono text-4xl">
           Laura Ikic
         </p>
-        <p class="lg:text-xl text-gray-400 font-mono mt-5 ">
+        <p class=" text-gray-400 font-mono mt-5 lg:mt-2">
           A software developer from Austria with a passion for web development.
         </p>
         <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52">
@@ -30,15 +30,41 @@
         </a>
       </div>
     </div>
-    <img class="hidden md:visible  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1.png " />
-    <img class=" xl:hidden  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
+    <img class=" hidden z-0  lg:-mt-screen 2xl:-mt-96 md:-mt-40 " src="../assets/img/wave1.png " id="wave1"/>
+    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
   </div>
 </template>
 
+
 <script>
-export default {
-  name: "About2"
-}
+import { defineComponent, onMounted, ref } from "vue"
+
+export default defineComponent({
+  setup(){
+
+
+    function handleWidth() {
+      const img = document.getElementById('wave1')
+
+      if(window.innerWidth >= 1024) {
+        img.classList.remove('hidden')
+      } else {
+        img.classList.add('hidden')
+        console.log('hidden')
+      }
+
+    }
+    onMounted(() => {
+      handleWidth()
+      window.addEventListener('resize',handleWidth)
+    })
+
+    return{
+      handleWidth
+    }
+  }
+
+})
 </script>
 
 <style scoped>
