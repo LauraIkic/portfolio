@@ -37,7 +37,7 @@
         />
       </svg>
 
-      <div class="hidden w-full md:flex md:items-center md:w-auto lg:mr-10  py-3" id="menu">
+      <div class="hidden w-full md:flex md:items-center h-screen md:w-auto lg:mr-10  py-3" id="menu">
         <ul class="pt-2 text-base text-gray-500 md:flex md:justify-between md:pt-0">
           <li><a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white"  href="#about" id="navBar1">About</a></li>
           <li><a class="md:p-2 mr-4 py-2 block link-underline transition duration-700 hover:text-white" href="#work" id="navBar2">Work</a></li>
@@ -63,7 +63,6 @@ export default defineComponent({
      onMounted (() => {
        const button = document.querySelector('#menu-button');
        const menu = document.querySelector('#menu');
-
 
        button.addEventListener('click', () => {
          menu.classList.toggle('hidden');

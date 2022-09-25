@@ -30,8 +30,8 @@
         </a>
       </div>
     </div>
-    <img class=" hidden z-0  lg:-mt-screen 2xl:-mt-96 md:-mt-40 " src="../assets/img/wave1.png " id="wave1"/>
-    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
+    <img class=" hidden z-0  lg:-mt-screen 2xl:-mt-96 md:-mt-40  transition duration-100 " src="../assets/img/wave1.png " id="wave1" />
+    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 wave" src="../assets/img/wave1large.png " id="wave" />
   </div>
 </template>
 
@@ -68,5 +68,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+#wave1 {
+  position: relative;
+  animation: fadeIn;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {opacity: 0%; z-index: 0}
+  100% {opacity: 100%; z-index: 0}
+}
 </style>
