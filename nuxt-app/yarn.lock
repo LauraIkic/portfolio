@@ -291,11 +291,6 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.9.tgz#b658a97babf1f40783354af7039b84c3fdfc3fc3"
   integrity sha512-O+NfmkfRrb3uSsTa4jE3WApidSe3N5++fyOVGP1SmMZi4A3BZELkhUUvj5hwmMuNdlpzAZ8iAPz2vmcR7DCFQA==
 
-"@headlessui/vue@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.2.tgz#da0bb42bcc3e21636f8621322115c3a93adf2331"
-  integrity sha512-nmmFpQxnAy6zgf5r0pwdAH3Qw2IsSbTgvkpov9RkEVE8A6aPAT4iaAaPEAzdI+sPL5Wby05mhciJXSqtkLu+vQ==
-
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@ioredis/commands/-/commands-1.2.0.tgz"
@@ -526,7 +521,7 @@
 
 "@nuxt/vite-builder@3.0.0-rc.11":
   version "3.0.0-rc.11"
-  resolved "https://registry.npmjs.org/@nuxt/vite-builder/-/vite-builder-3.0.0-rc.11.tgz"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.0.0-rc.11.tgz#ed64ab95f528465cf5cbe1dd35f8cb0525e5dc24"
   integrity sha512-WkQ+/cfdIf5XVZea8xD+ciLXpmQkNu8d5p16WJSp10hEhj3Vt/cQ8OkXDVHGGRML+NsDL0bQXDeg3PcM/bw94w==
   dependencies:
     "@nuxt/kit" "3.0.0-rc.11"
@@ -2961,7 +2956,7 @@ nanoid@^4.0.0:
 
 nitropack@^0.5.4:
   version "0.5.4"
-  resolved "https://registry.npmjs.org/nitropack/-/nitropack-0.5.4.tgz"
+  resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-0.5.4.tgz#7bc8385e3858d2f175a2f32e17b21090e7eace91"
   integrity sha512-e7hNguDQLDTV5271U1PgWFC/B3HscZ6W8DG9bHfuwmiWLXRrdsMvw27yJdf6MGbqQ+p6o22ligpfIL1M54rSTg==
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.2.0"
@@ -3176,7 +3171,7 @@ nth-check@^2.0.1:
 
 nuxi@3.0.0-rc.11:
   version "3.0.0-rc.11"
-  resolved "https://registry.npmjs.org/nuxi/-/nuxi-3.0.0-rc.11.tgz"
+  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.0.0-rc.11.tgz#30536dbccbcc25a24ba2e2ebc07d33bbda116a6a"
   integrity sha512-Zz3FRkLX0pmrQAgNkiartayC5DHKBxuMsPqTkaWSXD123CtFanL2mTOwfWtuO6W+qkEA9DGWNOL+fOkfScOQJQ==
   optionalDependencies:
     fsevents "~2.3.2"
