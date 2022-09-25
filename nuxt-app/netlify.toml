@@ -1,0 +1,14 @@
+[Settings]
+[build]
+  publish = "dist"
+
+[[plugins]]
+  package = "netlify-plugin-inline-functions-env"
+
+# Production context: all deploys from the Production branch
+# set in your site’s Branches settings in the UI
+# will inherit these settings.
+[context.production]
+  command = "yarn run generate"
+[context.production.environment]
+  NETLIFY_ENVIRONMENT = "production"

@@ -74,7 +74,7 @@ export default defineComponent({
 #wave1 {
   position: relative;
   animation: fadeIn;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes fadeIn {

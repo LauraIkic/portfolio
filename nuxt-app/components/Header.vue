@@ -15,8 +15,8 @@
           pt-5
         "
     >
-      <div>
-        <a href="/">
+      <div id="navBar5">
+        <a href="/" class="text-[#ed52f9] text-xl font-bold border px-4 py-2 border-[#ed52f9]" >
          L
         </a>
       </div>
