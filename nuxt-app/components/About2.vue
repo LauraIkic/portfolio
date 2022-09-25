@@ -31,7 +31,7 @@
       </div>
     </div>
     <img class="hidden md:visible  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1.png " />
-    <img class=" lg:invisible  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
+    <img class=" xl:hidden  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
   </div>
 </template>
 
