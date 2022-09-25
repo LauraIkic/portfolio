@@ -56,35 +56,35 @@ export default defineComponent({
       },
       {
         title: 'Cocktail Recipes',
-        image: '../assets/img/cocktailRecipe.png',
+        image: 'https://user-images.githubusercontent.com/79761992/192140490-adcb74e3-fb4d-4c04-9db9-32fb9108fe33.png',
         icon: '',
         tools: 'Swift',
         link: 'https://github.com/LauraIkic/cocktailRecipes'
       },
       {
         title: 'Ar project',
-        image: '../assets/img/arProject.png',
+        image: 'https://user-images.githubusercontent.com/79761992/192140532-ba7aef64-932c-4864-aba4-4c700934da09.png',
         icon: '',
         tools: 'Flutter',
         link: ''
       },
       {
         title: 'Cap.finisher Club',
-        image: '../assets/img/cap-finisher.png',
+        image: 'https://user-images.githubusercontent.com/79761992/192140560-b7a10fd6-29b4-4923-8cd7-53b1f08be179.png',
         icon: '',
         tools: 'Vue.js Nuxt',
         link: '' //open src?
       },
       {
         title: 'Makerspace app',
-        image: '../assets/img/makerspace.png',
+        image: 'https://user-images.githubusercontent.com/79761992/192140549-71c1259d-0139-4e26-9025-714145007ab7.png',
         icon: '',
         tools: 'Swift',
         link: ''
       },
       {
         title: 'Parkify app',
-        image: '../assets/img/parkify.png',
+        image: 'https://user-images.githubusercontent.com/79761992/192140553-9f8d4a44-7860-4bf4-b0b8-e4e336b6ce69.png',
         icon: '',
         tools: 'Swift',
         link: ''

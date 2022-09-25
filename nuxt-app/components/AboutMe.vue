@@ -1,6 +1,6 @@
 <template>
     <div class=" md:h-1/2  mb-10 lg:-mt-96 xl:-mt-72 -mt-20 md:-mt-64" id="about">
-      <div class="flex flex-col justify-center lg:h-1/2 text-center w-96 lg:w-1/3 mx-auto  bg-white rounded-2xl p-10 md:w-2/3 w-1/2 xl:w-1/2 lg:pb-30 ">
+      <div class="flex flex-col justify-center lg:h-1/2 text-center w-96  mx-auto  bg-white rounded-2xl p-10 md:w-2/3 w-1/2 xl:w-1/2 lg:pb-30 ">
         <h2 class="text-[#ed52f9]">
           INFO
         </h2>
