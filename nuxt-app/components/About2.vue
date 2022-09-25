@@ -1,5 +1,5 @@
 <template>
-  <div class=" lg:h-screen h-full ">
+  <div class=" lg:h-screen h-full " id="test">
     <div class="  z-10 relative mt-60">
       <div class="flex flex-col justify-evenly
        lg:h-64 h-72 mx-auto w-80 md:w-2/3">
@@ -12,7 +12,7 @@
         <p class=" text-gray-400 font-mono mt-5 lg:mt-2">
           A software developer from Austria with a passion for web development.
         </p>
-        <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52">
+        <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52" @click="changeBg" >
           <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
 
           <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-Ftransparent opacity-5 h-1/3"></span>
@@ -42,7 +42,6 @@ import { defineComponent, onMounted, ref } from "vue"
 export default defineComponent({
   setup(){
 
-
     function handleWidth() {
       const img = document.getElementById('wave1')
 
@@ -54,13 +53,17 @@ export default defineComponent({
       }
 
     }
+    function changeBg() {
+      const test = document.getElementById('test')
+      test.classList.add('bg-black')
+    }
     onMounted(() => {
       handleWidth()
       window.addEventListener('resize',handleWidth)
     })
 
     return{
-      handleWidth
+      handleWidth,changeBg
     }
   }
 
