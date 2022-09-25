@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex flex-col w-full transition duration-500 ease-in-out container mx-auto" :class="bgColor" >
+  <div class="relative flex flex-col w-full transition duration-500 ease-in-out " :class="bgColor" >
     <div ref="section1" >
       <About2 class=""/>
     </div>

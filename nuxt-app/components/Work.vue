@@ -16,7 +16,7 @@
 
         <!-- Card 1 -->
         <div class="relative group hover:-translate-y-3 transition duration-200 mb-10">
-          <!--        <div class="ml-10  absolute -inset-1 bg-gradient-to-r from-[#0096c9] to-[#a21faf] rounded blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>-->
+                  <div class="ml-10  absolute -inset-1 bg-gradient-to-r from-[#0096c9] to-[#a21faf] rounded blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
           <!-- Dot Follwing the Left Vertical Line -->
           <div class="w-5 h-5 inset-x-1  bg-gradient-to-r from-[#0096c9] to-[#a21faf] absolute -left-0.5 transform -translate-x-2/4 rounded-full z-10 mt-8"></div>
 

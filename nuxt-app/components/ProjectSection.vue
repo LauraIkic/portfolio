@@ -49,42 +49,42 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: '../public/img/tamago.png',
+        image: 'public/img/tamago.png',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'
       },
       {
         title: 'Cocktail Recipes',
-        image: '../assets/img/cocktailRecipe.png',
+        image: 'public/img/cocktailRecipe.png',
         icon: '',
         tools: 'Swift',
         link: 'https://github.com/LauraIkic/cocktailRecipes'
       },
       {
         title: 'Ar project',
-        image: '../assets/img/arProject.png',
+        image: 'public/img/arProject.png',
         icon: '',
         tools: 'Flutter',
         link: ''
       },
       {
         title: 'Cap.finisher Club',
-        image: '../assets/img/cap-finisher.png',
+        image: 'public/img/cap-finisher.png',
         icon: '',
         tools: 'Vue.js Nuxt',
         link: '' //open src?
       },
       {
         title: 'Makerspace app',
-        image: '../assets/img/makerspace.png',
+        image: 'public/img/makerspace.png',
         icon: '',
         tools: 'Swift',
         link: ''
       },
       {
         title: 'Parkify app',
-        image: 'public/img/wave1.png ',
+        image: '../public/img/wave1.png ',
         icon: '',
         tools: 'Swift',
         link: ''
