@@ -3188,7 +3188,7 @@ nuxi@3.0.0-rc.11:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt3@^3.0.0-rc.11:
+nuxt3@^3.0.0-rc.9:
   version "3.0.0-rc.12-27730995.2894a75"
   resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-rc.12-27730995.2894a75.tgz#2d28527b03e3512d36f761f3d3f47c927c53620a"
   integrity sha512-DXG9BJoAUPhO8hegwhgrCMyaXch9ZCSEa3KPjJIsOagTYeT5gwtLfiVRtSe+sBZBu2KZ54AeGg84hLJdidaA4w==
@@ -3234,7 +3234,7 @@ nuxt3@^3.0.0-rc.11:
     vue-devtools-stub "^0.1.0"
     vue-router "^4.1.5"
 
-nuxt@^3.0.0-rc.11:
+nuxt@^3.0.0-rc.9:
   version "3.0.0-rc.11"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0-rc.11.tgz#08f9861b71b68e322bf8f732f8b28956bb92219f"
   integrity sha512-I0wyxPHnUoJBWoROKUx91PLKaAFZ/TsxSpcm3/jn/Ysq2RGU5Q3o9AzqT0YcXW4rgH35QPFvGpqopU9X0vS7Qw==
