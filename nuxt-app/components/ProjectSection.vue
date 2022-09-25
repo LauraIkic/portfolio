@@ -70,7 +70,7 @@ export default defineComponent({
       },
       {
         title: 'Cap.finisher Club',
-        image: 'public/img/cap-finisher.png',
+        image: '../public/img/cap-finisher.png',
         icon: '',
         tools: 'Vue.js Nuxt',
         link: '' //open src?
