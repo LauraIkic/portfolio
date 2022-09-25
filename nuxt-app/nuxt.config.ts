@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     css: ['~/assets/scss/tailwind.css'],
     assets:  ['~/assets/'],
     build: {
+        transpile: ['@headlessui/vue'],
         postcss: {
             postcssOptions: require('./postcss.config.js'),
         },
