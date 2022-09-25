@@ -32,7 +32,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="public/img/laptop.jpg" />
+          <img class="w-full md:w-4/5 z-50" src="../assets/img/laptop.jpg" />
         </div>
       </div>
     </div>

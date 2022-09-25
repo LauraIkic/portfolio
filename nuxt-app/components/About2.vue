@@ -1,6 +1,6 @@
 <template>
-  <div class=" lg:h-screen h-full md:h-96">
-    <div class=" lg:mt-80 z-10 relative mt-72">
+  <div class=" lg:h-screen h-full ">
+    <div class=" lg:mt-80 z-10 relative mt-60">
       <div class="flex flex-col justify-evenly
        lg:h-64 h-72 lg:w-1/2 mx-auto w-80 md:w-2/3">
         <p class="lg:text-2xl text-white font-mono text-[#ed52f9] ">
@@ -30,8 +30,8 @@
         </a>
       </div>
     </div>
-    <img class="hidden md:visible  z-0  lg:-mt-96 md:-mt-40 " src="public/img/wave1.png " />
-    <img class="lg:hidden  z-0  lg:-mt-96 md:-mt-40 " src="public/img/wave1large.png " />
+    <img class="hidden md:visible  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1.png " />
+    <img class=" lg:invisible  z-0  lg:-mt-96 md:-mt-40 " src="../assets/img/wave1large.png " />
   </div>
 </template>
 

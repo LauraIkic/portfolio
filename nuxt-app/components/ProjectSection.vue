@@ -5,7 +5,7 @@
       <p class="text-white md:text-5xl text-3xl">
         My projects
       </p>
-      <h2 class="text-[#FC01B0]">
+      <h2 class="text-[#ed52f9] ml-2">
         SELECTED
       </h2>
     </div>
@@ -49,42 +49,42 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: '../public/img/tamago.png',
+        image: '../assets/img/tamago.png',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'
       },
       {
         title: 'Cocktail Recipes',
-        image: '../public/img/cocktailRecipe.png',
+        image: '../assets/img/cocktailRecipe.png',
         icon: '',
         tools: 'Swift',
         link: 'https://github.com/LauraIkic/cocktailRecipes'
       },
       {
         title: 'Ar project',
-        image: 'public/img/arProject.png',
+        image: '../assets/img/arProject.png',
         icon: '',
         tools: 'Flutter',
         link: ''
       },
       {
         title: 'Cap.finisher Club',
-        image: '../public/img/cap-finisher.png',
+        image: '../assets/img/cap-finisher.png',
         icon: '',
         tools: 'Vue.js Nuxt',
         link: '' //open src?
       },
       {
         title: 'Makerspace app',
-        image: 'public/img/makerspace.png',
+        image: '../assets/img/makerspace.png',
         icon: '',
         tools: 'Swift',
         link: ''
       },
       {
         title: 'Parkify app',
-        image: '../public/img/wave1.png ',
+        image: '../assets/img/parkify.png',
         icon: '',
         tools: 'Swift',
         link: ''
