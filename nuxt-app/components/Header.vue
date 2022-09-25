@@ -58,20 +58,23 @@ import {defineComponent, onMounted} from 'vue'
 
 export default defineComponent({
   setup(){
+    function test() {
 
+      const button = document.querySelector('#menu-button');
+      const menu = document.querySelector('#menu');
+
+      button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('h-screen');
+
+      })
+    }
 
      onMounted (() => {
-       const button = document.querySelector('#menu-button');
-       const menu = document.querySelector('#menu');
-
-       button.addEventListener('click', () => {
-         menu.classList.toggle('hidden');
-         menu.classList.toggle('h-screen');
-
-       })
+       test()
      })
     return{
-
+      test
     }
   }
 })
