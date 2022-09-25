@@ -21,6 +21,7 @@
         </a>
       </div>
 
+
       <svg
           xmlns="http://www.w3.org/2000/svg"
           id="menu-button"
@@ -64,6 +65,7 @@ export default defineComponent({
       const menu = document.querySelector('#menu');
 
       button.addEventListener('click', () => {
+        console.log('clicked')
         menu.classList.toggle('hidden');
         menu.classList.toggle('h-screen');
 
