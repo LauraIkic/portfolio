@@ -49,14 +49,14 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: 'public/img/tamago.png',
+        image: '../public/img/tamago.png',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'
       },
       {
         title: 'Cocktail Recipes',
-        image: 'public/img/cocktailRecipe.png',
+        image: '../public/img/cocktailRecipe.png',
         icon: '',
         tools: 'Swift',
         link: 'https://github.com/LauraIkic/cocktailRecipes'
