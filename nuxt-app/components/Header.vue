@@ -29,6 +29,7 @@
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          @click="toggle"
       >
         <path
             stroke-linecap="round"
@@ -72,11 +73,17 @@ export default defineComponent({
       })
     }
 
+    function toggle() {
+      const button = document.querySelector('#menu-button');
+      const menu = document.querySelector('#menu');
+      menu.classList.toggle('hidden');
+      menu.classList.toggle('h-screen');
+    }
      onMounted (() => {
        test()
      })
     return{
-      test
+      test,toggle
     }
   }
 })
