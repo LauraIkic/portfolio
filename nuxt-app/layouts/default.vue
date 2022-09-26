@@ -1,7 +1,6 @@
 <template>
   <div class="bg-[#001727]">
-    <Header/>
-    <header2/>
+    <Header2/>
     <slot />
   </div>
 </template>

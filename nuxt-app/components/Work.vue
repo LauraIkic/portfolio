@@ -1,7 +1,7 @@
 <template>
   <div class="md:mt-32 mt-64 bg-[#001727] xl:pt-20">
     <img class=" z-0  -ml-5 " src="../assets/img/wave2.png " />
-    <div class="w-10/12 md:w-7/12  mx-auto relative pt-28 md:pt-0 ml-70  -mt-[500px] " id="work">
+    <div class="w-10/12 md:w-7/12 mx-auto relative pt-28 md:pt-0 ml-70  -mt-[500px] " id="work">
 
       <div class="flex justify-center lg:-mt-80">
         <h3 class="text-white md:text-5xl text-4xl mb-5">
