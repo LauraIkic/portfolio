@@ -12,7 +12,7 @@
         <p class=" text-gray-400 font-mono mt-5 lg:mt-2">
           A software developer from Austria with a passion for web development.
         </p>
-        <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52" @click="changeBg" >
+        <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52" >
           <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
 
           <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-Ftransparent opacity-5 h-1/3"></span>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <img class=" hidden z-0  lg:-mt-screen 2xl:-mt-96 md:-mt-40  transition duration-100 " src="../assets/img/wave1.png " id="wave1" />
-    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 wave" src="../assets/img/wave1large.png " id="wave" />
+    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 wave" src="../assets/img/wave1large.png " id="wave1" />
   </div>
 </template>
 
@@ -51,19 +51,18 @@ export default defineComponent({
         img.classList.add('hidden')
         console.log('hidden')
       }
+    }
 
-    }
-    function changeBg() {
-      const test = document.getElementById('test')
-      test.classList.add('bg-black')
-    }
     onMounted(() => {
       handleWidth()
       window.addEventListener('resize',handleWidth)
     })
 
     return{
-      handleWidth,changeBg
+      handleWidth
+
+
+
     }
   }
 

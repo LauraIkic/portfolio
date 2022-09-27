@@ -62,15 +62,6 @@
       </div>
       <br>
       <br>
-
-      <!--    <div class="" >
-            <div class="absolute inset-x-1 bottom-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-100 h-5 ">
-            </div>
-            <div class=" absolute inset-x-1 bottom-0 p-5   flex justify-center space-x-2 ">
-              <a href="https://github.com/LauraIkic/portfolio">
-              </a>
-            </div>
-          </div>-->
     </div>
   </div>
 
