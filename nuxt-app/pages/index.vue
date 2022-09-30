@@ -67,6 +67,16 @@ export default defineComponent({
     onMounted(() => {
       document.addEventListener('scroll',handleScrollX);
       document.addEventListener('scroll',handleScrollY);
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
     })
     return{
       X,section1,section2,section3,bgColor,

@@ -1,7 +1,7 @@
 
 <template>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" id="contact">
-  <div class="relative h-screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="relative h-screen"  id="contact">
     <div class="flex flex-col justify-center w-full h-full text-center">
       <h2 class="text-[#ed52f9]">
         CONTACT
