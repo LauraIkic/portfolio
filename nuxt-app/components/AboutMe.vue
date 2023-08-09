@@ -10,25 +10,24 @@
         <br>
         <div class="lg:p-10 ">
           <p class="text-[#0b1229]">
-            I am a software developer currently enrolled in a BS degree called mobile computing (University of Applied Sciences Upper Austria).
-            My studies focus on mobile devices but also include a general CS curriculum.
-            By working as a frontend developer I have discovered my passion for web development which I am eager to pursue and grow in the future.
+            I am a software developer with a bachelor degree in Computer Science. 
+            My studies focused on mobile devices but also encompassed a comprehensive CS curriculum.
+            During my time as a web developer, I uncovered my passion for this domain, and I'm eagerly committed to its pursuit and growth in the future.
           </p>
         </div>
         <br>
         <h2 class="text-[#ed52f9] mt-5">
           TOOLS
         </h2>
-        Git, Storyblok, Netlify, Firebase, Auth0
+        Git, Storyblok, Netlify, Firebase, Auth0, Pimcore 
         <h2 class="text-[#ed52f9] mt-5">
           Programming
         </h2>
-        Java, JavaScript, C++, HTML, CSS, Swift, Kotlin, SQL
+        Java, JavaScript, C++, HTML, CSS, Swift, Kotlin, SQL, PHP 
         <h2 class="text-[#ed52f9] mt-5">
           Libraries/Frameworks
         </h2>
-        Vue.js, Node.js, React, Flutter, Bootstrap, Tailwind, Spring
-
+        Vue.js, Node.js, React, Flutter, Bootstrap, Tailwind, Spring, Symfony
       </div>
     </div>
 </template>

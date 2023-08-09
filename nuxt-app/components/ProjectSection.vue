@@ -49,7 +49,7 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: 'https://user-images.githubusercontent.com/79761992/189744566-8eaacbe5-931b-42c1-a90a-ed50cc37ade6.png',
+        image: '../assets/webp/tamago.webp',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'
@@ -63,31 +63,39 @@ export default defineComponent({
       },
       {
         title: 'Ar project',
-        image: 'https://user-images.githubusercontent.com/79761992/192140532-ba7aef64-932c-4864-aba4-4c700934da09.png',
+        image: '../assets/webp/arProject.webp',
         icon: '',
         tools: 'Flutter',
         link: ''
       },
       {
-        title: 'Cap.finisher Club',
-        image: 'https://user-images.githubusercontent.com/79761992/192140560-b7a10fd6-29b4-4923-8cd7-53b1f08be179.png',
+        title: 'Parkify app',
+        image: '../assets/webp/parkify.webp',
         icon: '',
-        tools: 'Vue.js Nuxt',
-        link: '' //open src?
+        tools: 'Swift',
+        link: ''
       },
       {
         title: 'Makerspace app',
-        image: 'https://user-images.githubusercontent.com/79761992/192140549-71c1259d-0139-4e26-9025-714145007ab7.png',
+        image: '../assets/webp/makerspace.webp',
         icon: '',
         tools: 'Swift',
         link: ''
       },
+  
       {
-        title: 'Parkify app',
-        image: 'https://user-images.githubusercontent.com/79761992/192140553-9f8d4a44-7860-4bf4-b0b8-e4e336b6ce69.png',
+        title: 'Lean Management Initiative',
+        image: '../assets/webp/limig.webp',
         icon: '',
-        tools: 'Swift',
-        link: ''
+        tools: 'Vue.js Nuxt',
+        link: 'https://prismatic-tarsier-ef9376.netlify.app/'
+      },
+      {
+        title: 'Wedding Page',
+        image: '../assets/webp/weddingProject.webp',
+        icon: '',
+        tools: 'Vue.js Nuxt',
+        link: 'https://karo-und-michi-2023.at/' //open src?
       },
     ]
     return{
