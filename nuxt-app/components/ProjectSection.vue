@@ -49,13 +49,15 @@ export default defineComponent({
     const projects = [
       {
         title: 'Tamago',
-        image: '../assets/webp/tamago.webp',
+        name: 'tamago',
+        image: 'https://user-images.githubusercontent.com/79761992/189748682-1c1b35ad-a4c6-4b00-86ba-342b08456c35.png',
         icon: '',
         tools: 'Kotlin',
         link: 'https://github.com/LauraIkic/Tamago'
       },
       {
         title: 'Cocktail Recipes',
+        name: 'cocktail',
         image: 'https://user-images.githubusercontent.com/79761992/192140490-adcb74e3-fb4d-4c04-9db9-32fb9108fe33.png',
         icon: '',
         tools: 'Swift',
@@ -63,13 +65,15 @@ export default defineComponent({
       },
       {
         title: 'Ar project',
-        image: 'arProject.webp',
+        name: 'ar',
+        image: '../assets/webp/arProject.webp',
         icon: '',
         tools: 'Flutter',
         link: ''
       },
       {
         title: 'Parkify app',
+        name: 'parkify',
         image: '../assets/webp/parkify.webp',
         icon: '',
         tools: 'Swift',
@@ -77,6 +81,7 @@ export default defineComponent({
       },
       {
         title: 'Makerspace app',
+        name:'makerspace',
         image: '../assets/webp/makerspace.webp',
         icon: '',
         tools: 'Swift',
@@ -85,6 +90,7 @@ export default defineComponent({
   
       {
         title: 'Lean Management Initiative',
+        name: 'lean-man',
         image: '../assets/webp/limig.webp',
         icon: '',
         tools: 'Vue.js Nuxt',
@@ -92,6 +98,7 @@ export default defineComponent({
       },
       {
         title: 'Wedding Page',
+        name: 'wedding',
         image: '../assets/webp/weddingProject.webp',
         icon: '',
         tools: 'Vue.js Nuxt',
