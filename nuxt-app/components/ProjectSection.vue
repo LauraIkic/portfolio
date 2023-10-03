@@ -70,14 +70,14 @@ export default defineComponent({
       },
       {
         title: 'Parkify app',
-        image: 'parkify.webp',
+        image: '../assets/webp/parkify.webp',
         icon: '',
         tools: 'Swift',
         link: ''
       },
       {
         title: 'Makerspace app',
-        image: 'makerspace.webp',
+        image: '../assets/webp/makerspace.webp',
         icon: '',
         tools: 'Swift',
         link: ''
@@ -85,7 +85,7 @@ export default defineComponent({
   
       {
         title: 'Lean Management Initiative',
-        image: 'limig.webp',
+        image: '../assets/webp/limig.webp',
         icon: '',
         tools: 'Vue.js Nuxt',
         link: 'https://prismatic-tarsier-ef9376.netlify.app/'
