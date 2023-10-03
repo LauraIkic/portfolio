@@ -63,7 +63,7 @@ export default defineComponent({
       },
       {
         title: 'Ar project',
-        image: '../assets/webp/arProject.webp',
+        image: 'arProject.webp',
         icon: '',
         tools: 'Flutter',
         link: ''

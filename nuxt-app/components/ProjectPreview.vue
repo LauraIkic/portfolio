@@ -25,7 +25,8 @@ export default defineComponent({
   setup(){
  function getImgaeSrc(project) {
   console.log(project.image)
-  return project.image
+
+  return '../assets/webp/' + project.image
  }
     return{
       getImgaeSrc
