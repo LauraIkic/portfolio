@@ -3,11 +3,8 @@
     <div ref="section1" >
       <About2 class=""/>
     </div>
-    <div ref="section2">
-      <AboutMe  />
-    </div>
     <div ref="section3">
-      <Work  />
+      <WorkSection  />
     </div>
     <ProjectSection  ref="section4"/>
     <Contact/>

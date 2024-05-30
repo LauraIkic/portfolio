@@ -1,16 +1,16 @@
 <template>
-  <div class=" lg:h-screen h-full " id="aboutMe" >
-    <div class="  z-10 relative mt-60">
+  <div class="  flex flex-col justify-center h-screen pb-20" id="aboutMe" >
+    <div class="  relative">
       <div class="flex flex-col justify-evenly
        lg:h-64 h-72 mx-auto w-80 md:w-2/3">
         <p class="lg:text-2xl text-white font-mono text-[#ed52f9] ">
           Hi, my name is
         </p>
         <p class="lg:text-5xl text-white font-mono text-4xl">
-          Laura Ikic 
+          Laura Ikic
         </p>
         <p class=" text-gray-400 font-mono mt-5 lg:mt-2">
-          A software developer from Austria with a passion for web development.
+          A passionate software developer from Austria, specializing in web development.
         </p>
         <a href="mailto:ikic.laura@gmx.at" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group w-52" >
           <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
@@ -30,8 +30,6 @@
         </a>
       </div>
     </div>
-   <img class=" hidden z-0  lg:-mt-screen 2xl:-mt-96 md:-mt-40  transition duration-100 " src="../assets/webp/wave1.webp" id="wave1" />
-    <img class="  lg:hidden  z-0  lg:-mt-96 md:-mt-40 wave" src="../assets/webp/wave1large.webp " id="wave1" />
   </div>
 </template>
 
