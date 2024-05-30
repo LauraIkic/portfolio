@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="flex flex-wrap space-x-2">
-          <div v-for="tool in workExperience.tools" :key="tool" class="px-2 py-1 bg-gradient-to-r from-[#0096c9] to-[#a21faf] text-white rounded-full">
+          <div v-for="tool in workExperience.tools" :key="tool" class="px-2 py-1 ring-1 text-white rounded-full">
             {{ tool }}
           </div>
         </div>
