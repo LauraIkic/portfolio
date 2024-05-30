@@ -23,7 +23,7 @@
 
 <script>
 import { onMounted } from 'vue';
-import anime from 'animejs';
+import anime from '../../node_modules/animejs';
 
 export default {
   name: 'LoadingSpinner',
