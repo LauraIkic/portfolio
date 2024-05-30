@@ -6,6 +6,7 @@
     <div v-else class="fade-in-dynamic">
       <Header2 />
       <slot />
+      <ContactBar class=""/>
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <div class="font-sans antialiased shadow-2xl" id="app">
+  <div class="font-sans antialiased" id="app">
     <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
-      <div class="flex items-center flex-no-shrink text-white mr-6">
+      <div class="flex items-center flex-no-shrink text-white ">
         <div id="navBar5" class="ml-1">
           <a href="/" class="">
             <svg
