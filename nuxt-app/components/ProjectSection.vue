@@ -11,11 +11,9 @@
     </div>
     <ul role="list"
         class="grid gap-20  grid-cols-1 gap-x-10 lg:grid-cols-3 xl:gap-x-8 mt-20 md:container w-80 mx-auto md:grid-cols-2 ">
-
       <li v-for="p in projects" :key="p.src" class="flex justify-center ">
         <ProjectPreview :project="p"/>
       </li>
-
     </ul>
    <div class="flex justify-center mt-20">
       <a href="project-archive" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">

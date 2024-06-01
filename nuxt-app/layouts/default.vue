@@ -4,7 +4,7 @@
       <LoadingSpinner />
     </div>
     <div v-else class="fade-in-dynamic">
-      <Header2 />
+      <Header />
       <slot />
       <ContactBar class=""/>
     </div>
@@ -13,13 +13,13 @@
 
 <script>
 import { ref, onMounted } from 'vue';
-import Header2 from '~/components/Header.vue'; // Import your Header2 component
+import Header from '~/components/Header.vue';
 import LoadingSpinner from '~/components/LoadingSpinner.vue';
 
 export default {
   name: 'default',
   components: {
-    Header2,
+    Header,
     LoadingSpinner,
   },
   setup() {

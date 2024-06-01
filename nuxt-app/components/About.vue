@@ -1,5 +1,5 @@
 <template>
-  <div class="  flex flex-col justify-center h-screen pb-20" id="aboutMe" >
+  <div class="  flex flex-col justify-center h-screen" id="about" >
     <div class="  relative">
       <div class="flex flex-col justify-evenly
        lg:h-64 h-72 mx-auto w-80 md:w-2/3">

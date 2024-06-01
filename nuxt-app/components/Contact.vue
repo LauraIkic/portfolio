@@ -18,7 +18,7 @@
           <a href="https://github.com/LauraIkic"  target="_blank"><i class="fa fa-github z-10" style="font-size: 22px"></i></a>
         </li>
         <li  class="social-links">
-          <a href="https://www.linkedin.com/in/laura-i-aa62b021a/"  target="_blank"><i class="fa fa-linkedin-square z-10" style="font-size: 22px" ></i></a>
+          <a href="https://www.linkedin.com/in/laura-ikic-aa62b021a/"  target="_blank"><i class="fa fa-linkedin-square z-10" style="font-size: 22px" ></i></a>
         </li>
         <li  class="social-links">
         <a href="mailto:ikic.laura@gmx.at"  ><i class="fa fa-envelope z-10" style="font-size: 22px" ></i></a>

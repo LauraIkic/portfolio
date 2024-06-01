@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex flex-col w-full transition duration-500 ease-in-out " :class="bgColor" >
     <div ref="section1" >
-      <About2 class=""/>
+    <About class="" />
     </div>
     <div ref="section3">
       <WorkSection  />

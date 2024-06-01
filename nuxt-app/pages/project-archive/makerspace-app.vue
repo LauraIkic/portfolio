@@ -1,11 +1,30 @@
 <template>
-  <section>
-    <div class="">
-      <h1 class="h-96 text-black">TEST PAGE</h1>
+  <div>
+    <!-- Fullscreen Header Image -->
+    <div class="relative h-screen bg-cover bg-center" :style="{ backgroundImage: `url(${project.image})` }">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="relative z-10 flex items-center justify-center h-full">
+        <h1 class="text-5xl text-white font-bold">{{ project.name }}</h1>
+      </div>
     </div>
 
-  </section>
+    <!-- Content Section -->
+    <div class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div v-for="(content, index) in project.contents" :key="index" class="flex flex-col md:flex-row">
+          <div class="w-full md:w-1/2">
+            <img :src="content.image" alt="" class="rounded-xl shadow-md" />
+          </div>
+          <div class="w-full md:w-1/2 md:pl-8">
+            <h2 class="text-3xl font-bold mb-4">{{ content.title }}</h2>
+            <p class="text-lg">{{ content.text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
+
 
 <script>
 import { defineComponent, onMounted, ref } from "vue"
