@@ -1,7 +1,5 @@
 <template>
-
-
-  <div class=" p-10" id="projects">
+  <div class="mt-14 pt-36 p-10" id="projects">
     <div class="flex justify-center ">
       <p class="text-white md:text-5xl text-3xl">
         My projects
