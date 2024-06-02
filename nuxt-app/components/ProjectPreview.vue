@@ -6,8 +6,8 @@
         <img v-if="project.name === 'parkify'" src='../assets/webp/parkify.webp' alt=""
              class="absolute  object-cover cursor-pointer pointer-events-none transition duration-500 shadow-md rounded-t-2xl grayscale group-hover:grayscale-0 absolute top-0"
         />
-        <img v-if="project.name === 'ar'" src='../assets/webp/arProject.webp' alt=""
-             class="absolute  object-cover cursor-pointer pointer-events-none transition duration-500 shadow-md rounded-t-2xl grayscale group-hover:grayscale-0 absolute top-0"
+        <img v-if="project.name === 'ar'" src='../assets/webp/ar.webp'   alt=""
+             class="absolute  object-cover cursor-pointer pointer-events-none h-[180px] w-[350px] transition duration-500 shadow-md rounded-t-2xl grayscale group-hover:grayscale-0 absolute top-0"
         />
         <img v-if="project.name === 'makerspace'" src='../assets/webp/makerspace.webp'  alt=""
              class="absolute  object-cover cursor-pointer pointer-events-none transition duration-500 shadow-md rounded-t-2xl grayscale group-hover:grayscale-0 absolute top-0"
