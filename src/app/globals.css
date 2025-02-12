@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #FFFEFA;
+  --foreground: #171717;
+  --border: #DFDFDF;
+  --secondary: #CD513B;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Playfair Display";
+}
