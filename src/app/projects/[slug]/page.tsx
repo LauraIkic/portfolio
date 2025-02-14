@@ -3,8 +3,6 @@ import projectsData from '../projects.json';
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import LinkItem from "@/app/components/LinkItem";
-import Link from "next/link";
-import { Item } from "@/app/components/Item";
 import ImageGallery from "@/app/components/ImageGallery";
 import React from "react";
 import Marker from "@/app/components/Marker";

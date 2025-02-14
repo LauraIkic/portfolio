@@ -39,8 +39,6 @@ export default function Home() {
                 </h1>
                 <span className="block text-center md:text-left">
                     I am a dedicated Software Developer with a strong passion for tackling complex challenges.
-                    I hold a BSc in Mobile Computing and am currently pursuing a Master's in Business Informatics,
-                    where I am further refining my skills at the intersection of technology and business.
                 </span>
                 <div className="w-full pt-10 md:pt-32">
                     <p className="text-secondary italic font-bold text-lg text-center md:text-left">Get in touch</p>
