@@ -5,10 +5,11 @@
     "image": "",
     "thumbnail": "/massiveArt.png",
     "date": "JUL 2019 - CURRENT",
-    "description": "Developed Customer Solution Software. Symfony, react , e commerce",
+    "description": "Developed and implemented customer solution software using Symfony and React, with a focus on e-commerce platforms. Contributed to the 'Value Force' initiative, promoting collaboration and ensuring the inclusion of diverse company locations.",
     "icon": "",
     "text": "",
     "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
+    "externalLink" : "https://www.massiveart.com/",
     "imageGallery": [
       {
         "tile": "maker space image 1",
@@ -32,6 +33,7 @@
     "icon": "",
     "text": "",
     "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
+    "externalLink" : "https://www.valantic.com/at/blog/elements-schlaegt-als-valantic-austria-neues-kapitel-auf/",
     "imageGallery": [
       {
         "tile": "maker space image 1",
@@ -55,6 +57,7 @@
     "icon": "",
     "text": "",
     "tools": ["JavaScript", "Vue.js", "Nuxt.js", "Storyblok"],
+    "externalLink" : "https://grandgarage.eu/",
     "imageGallery": [
       {
         "tile": "maker space image 1",
