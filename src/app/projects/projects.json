@@ -1,10 +1,12 @@
-[  {
+[
+  {
   "title": "Ar project - City Guide App",
   "name": "ar",
   "image": "/arCore/arCore.png",
   "thumbnail": "/arCore/arCoreThumbnail.png",
   "description": "Enhancing Travel with AR and Image Recognition: The City Guide Project",
   "icon": "",
+  "date": "",
   "text": "The \"City Guide\" project is an innovative combination of machine learning and augmented reality (AR) that aims to enhance the travel experience. The project is divided into two main components: an image recognition system and an AR experience, with a primary focus on the latter.\n\nImage Recognition Component\n\nThe first component of the project involves capturing images through a camera and analyzing them with the help of a Vision API. This API is designed to detect landmarks within the captured image and return relevant information. The results are cross-referenced with a database that holds additional details about each landmark, allowing for further exploration. Additionally, the coordinates of the nearest landmark are calculated, helping the system understand the user’s exact location.\n\nAugmented Reality Experience\n\nOnce the image recognition system has detected a landmark, the project activates an AR session. Using the coordinates of the landmark, a virtual 3D object is positioned in the user's environment, displaying the name of the landmark. Users can interact with the object by tapping on it, which brings up a detailed view of the landmark, offering additional information.\n\nThe second prototype of the project, developed in Kotlin, improved upon the initial version, which was built with Flutter. The new version introduced features like a comprehensive landmark overview. Users can filter landmarks by city or category, easily searching for points of interest. Each landmark also provides more detailed information, enriching the user’s experience. Another notable addition is the route generation feature, which uses Google Maps to create optimal travel routes between selected landmarks, saving users time when planning their visits.\n\nUser-Friendly Interface with Jetpack Compose\n\nThe app’s user interface (UI) was enhanced with Jetpack Compose, a modern UI toolkit for Android development. This upgrade significantly improved the app's design, surpassing the limitations of traditional XML-based UI frameworks. Upon starting the app, users are greeted with two buttons: one for initiating the scanning process and another for accessing the landmark overview. The scanning process lets users capture an image of a landmark, while the overview offers a searchable list of landmarks, with filtering options based on city or category.\n\nThe landmark data is stored in Firebase, a NoSQL database that supports fast, real-time data retrieval, and was integrated during the machine learning phase of the project.\n\nConclusion\n\nThe \"City Guide\" project merges cutting-edge machine learning and AR technologies to offer travelers an immersive and interactive way to explore landmarks. By combining image recognition with AR, users can quickly identify landmarks and access detailed information, all while navigating with ease through optimized routes. This project has the potential to revolutionize the way we explore cities, making it an essential tool for modern-day travelers.",
   "tools": ["Kotlin", "ArCore"],
   "imageGallery": [
@@ -19,12 +21,13 @@
   ],
   "links": [
   ]
-},
+  },
   {
     "title": "Makerspace app",
     "name": "makerspace",
     "image": "/makerspace/makerspace-1.png",
     "thumbnail" : "/makerspace/makerspaceThumbnail.png",
+    "date": "",
     "description": "Enhancing the Makerspace Experience: A Collaboration with the Makerspace Grand Garage",
     "icon": "",
     "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
@@ -62,6 +65,7 @@
     "image": "/tamago/tamago.png",
     "thumbnail" : "/tamago/tamagoThumbnail.png",
     "description": "Tamago - Game App",
+    "date": "",
     "icon": "",
     "text": "The Tamago App is a delightful and interactive virtual pet game inspired by the classic Tamagotchi, but with a magical twist. In this game, you start by choosing one of two mystical dragon eggs: the Fire Egg or the Water Egg. Each egg brings its own unique set of challenges and care routines, creating a fun and engaging experience for players. Once you’ve selected your egg, it’s time to begin your journey as a dragon caretaker. If you choose the Water Egg, you’ll notice it becoming covered in grime and dirt as time goes by. To keep it healthy and happy, you’ll need to use a sponge to carefully clean the egg, ensuring it stays in top condition for the next stage of its growth. On the other hand, if you opt for the Fire Egg, it will periodically freeze over, and you must use a fire source to gently thaw it out, ensuring it remains warm and safe. Both of these eggs require your constant attention, as each one needs specific care at regular intervals. These tasks must be repeated over time, providing a fun challenge as you work to nurture the egg and prepare it for the momentous hatching. The ultimate goal is to help your dragon grow strong enough to hatch, bringing a new magical creature into the world that you’ve cared for from the very beginning. As you continue through the game, you’ll be able to track your egg’s progress, unlock new features, and discover additional elements that keep the gameplay fresh and exciting. The Tamago App offers a charming, whimsical experience that will keep you hooked as you bond with your virtual dragon and ensure it’s ready for its grand debut.",
     "tools": ["Kotlin"],
@@ -97,6 +101,7 @@
     "name": "cocktail",
     "image": "/cocktail/cocktail.png",
     "thumbnail" : "/cocktail/cocktailThumbnail.png",
+    "date": "",
     "description": "Discover and Save Your Favorite Cocktails with This Swift-Based Mobile App",
     "icon": "",
     "text": "This Swift-based mobile application allows users to explore an extensive collection of cocktails by making an API call to fetch a curated list. Once you receive the list, you can dive deeper into each cocktail’s details, including a comprehensive list of ingredients and an informative description of the drink's origins and preparation methods. In addition to simply browsing, the app offers the convenient option to save your favorite cocktails to a personalized list. This list is stored persistently within the app’s delegates, ensuring your favorites are retained even if the app is closed or restarted. The saved cocktails can be easily accessed at any time, and you have full control to remove items from your favorites whenever you choose. The app provides a seamless, intuitive interface for cocktail enthusiasts to discover new drinks, keep track of their preferred choices, and revisit them with ease. Whether you’re a novice looking to explore new recipes or a seasoned mixologist curating your perfect cocktail collection, this app enhances your cocktail experience with simple yet powerful features. ",
@@ -123,6 +128,7 @@
     "name": "lean-man",
     "image": "/lmig/lmig.png",
     "thumbnail" : "/limig/lmigThumbnail.png",
+    "date": "",
     "description": "The Lean Management Initiative in Healthcare: Empowering Healthcare Organizations through Innovation",
     "icon": "",
     "text": "The healthcare industry is facing unprecedented challenges that demand innovative solutions. In response to these challenges, the Lean Management Initiative in Healthcare (LMIG) has emerged as a collaborative network of experts, dedicated to improving efficiency and sustainability within healthcare organizations. Through the collective expertise of professionals from various fields, LMIG aims to provide impactful solutions that enable healthcare leaders and teams to adapt quickly and effectively to both current and future demands.\n\nTo support this mission, we developed a modern, responsive website built on a powerful technology stack, including Vue.js, Nuxt.js, and Tailwind CSS. These tools allow us to create a user-friendly, dynamic platform that reflects the initiative's values of agility, efficiency, and innovation. The use of Vue.js and Nuxt.js ensures seamless performance and scalability, while Tailwind CSS offers a visually appealing and accessible design.\n\nThis website serves as a hub for the LMIG community, offering resources, networking opportunities, and insights, all aimed at fostering collaboration and driving meaningful change in the healthcare sector.",
@@ -142,6 +148,7 @@
     "name": "wedding",
     "image": "/wedding/weddingPage.png",
     "thumbnail" : "/wedding/weddingThumbnail.png",
+    "date": "",
     "description": "Creating a Personal Wedding Website: A Digital Space to Celebrate Love and Share Moments",
     "icon": "",
     "text": "When some of the most important people in my life asked me to create a wedding website for them, I was truly honored. Their special day deserved a digital space as unique and memorable as the love they share, and I couldn’t wait to bring that vision to life. The goal was simple: to provide a beautiful, seamless way for their guests to access all the details about the wedding, from the ceremony schedule to registry information and everything in between.\n\nUsing Vue.js, Nuxt.js, and Tailwind CSS, I created a responsive, user-friendly platform that makes it easy for guests to stay informed and engaged. Vue.js and Nuxt.js ensured the website runs smoothly and loads quickly, while Tailwind CSS gave it a clean, elegant design that reflects the warmth and joy of the couple's love story. It was important to me that the site not only provided all the necessary information but also captured the spirit of their celebration.\n\nBuilding this website for people I care about was a deeply personal project, and I’m so happy it could play a small part in making their wedding day even more memorable. It's a digital space where their guests can connect, share in the excitement, and feel like they’re part of something truly special.",
@@ -161,6 +168,7 @@
     "name": "registration",
     "image": "/speeddating/speeddating.png",
     "thumbnail" : "/speeddating/speeddatingThumbnail.png",
+    "date": "",
     "description": "Enhancing the Makerspace Experience: A Collaboration with the Makerspace Grand Garage",
     "icon": "",
     "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
@@ -183,6 +191,7 @@
     "name": "portfolio",
     "image": "/portfolio/portfolio.png",
     "thumbnail" : "/portfolio/portfolioThumbnail.png",
+    "date": "",
     "description": "Portfolio",
     "icon": "",
     "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
