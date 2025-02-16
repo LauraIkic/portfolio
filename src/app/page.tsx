@@ -31,9 +31,10 @@ export default function Home() {
 
     return (
         <div className="flex flex-col md:flex-row justify-center p-4">
-            {/* Text Section */}
             <div className="w-full md:w-5/12 pt-10">
-                <Marker marker="ME" width="w-11"/>
+                <div className="flex justify-center md:justify-start">
+                    <Marker marker="ME" width="w-11"/>
+                </div>
                 <h1 className="text-2xl font-bold text-center md:text-left">
                     Software Developer from Austria based in Vienna
                 </h1>
