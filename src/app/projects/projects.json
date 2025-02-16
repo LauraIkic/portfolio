@@ -84,7 +84,7 @@
       },
       {
         "tile": "tamago image 2",
-        "src": "/tamagon/tamago-4.png"
+        "src": "/tamago/tamago-4.png"
       }
     ],
     "links": [
@@ -127,7 +127,7 @@
     "title": "Lean Management Initiative",
     "name": "lean-man",
     "image": "/lmig/lmig.png",
-    "thumbnail" : "/limig/lmigThumbnail.png",
+    "thumbnail" : "/lmig/lmigThumbnail.png",
     "date": "",
     "description": "The Lean Management Initiative in Healthcare: Empowering Healthcare Organizations through Innovation",
     "icon": "",
