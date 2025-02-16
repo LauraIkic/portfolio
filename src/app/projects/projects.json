@@ -177,5 +177,25 @@
     ],
     "links": [
     ]
+  },
+  {
+    "title": "Portfolio V1",
+    "name": "portfolio",
+    "image": "/portfolio/portfolio.png",
+    "thumbnail" : "/portfolio/portfolioThumbnail.png",
+    "description": "Portfolio",
+    "icon": "",
+    "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
+    "tools": ["Nuxt.js", "Vue.js" ,"Tailwind", "Netlify"],
+    "imageGallery": [
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "image": "",
+        "type": "link",
+        "link": "https://sunny-torrone-8929ad.netlify.app/"
+      }
+    ]
   }
 ]
