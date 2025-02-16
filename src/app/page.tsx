@@ -30,20 +30,20 @@ export default function Home() {
     }
 
     return (
-        <div className="flex flex-col md:flex-row justify-center p-4">
-            <div className="w-full md:w-5/12 pt-10">
-                <div className="flex justify-center md:justify-start">
+        <div className="flex flex-col lg:flex-row justify-center p-4">
+            <div className="w-full lg:w-5/12 pt-10">
+                <div className="flex justify-center lg:justify-start">
                     <Marker marker="ME" width="w-11"/>
                 </div>
-                <h1 className="text-2xl font-bold text-center md:text-left">
+                <h1 className="text-2xl font-bold text-center lg:text-left">
                     Software Developer from Austria based in Vienna
                 </h1>
-                <span className="block text-center md:text-left">
+                <span className="block text-center lg:text-left">
                     I am a dedicated Software Developer with a strong passion for tackling complex challenges.
                 </span>
-                <div className="w-full pt-10 md:pt-32">
-                    <p className="text-secondary italic font-bold text-lg text-center md:text-left">Get in touch</p>
-                    <div className="flex flex-col items-center md:items-start space-y-4">
+                <div className="w-full pt-10 lg:pt-32">
+                    <p className="text-secondary italic font-bold text-lg text-center lg:text-left">Get in touch</p>
+                    <div className="flex flex-col items-center lg:items-start space-y-4">
                         <LinkItem link={linkGithub}/>
                         <LinkItem link={linkLikedIn}/>
                         <LinkItem link={linkMail}/>
@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="w-full md:w-4/12 flex justify-center md:justify-end mt-8 md:mt-0">
+            <div className="w-full lg:w-4/12 flex justify-center lg:justify-end mt-8 lg:mt-0">
                 <Image
                     aria-hidden
                     src="/profile.png"
