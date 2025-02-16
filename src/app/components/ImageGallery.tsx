@@ -25,7 +25,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ imageGallery }) => {
                             alt={image.tile}
                             width={500}
                             height={400}
-                            className="m-4 h-80 w-full"
+                            className="m-4 h-auto md:h-80 w-full"
                         />
                     </div>
                 ))}

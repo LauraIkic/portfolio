@@ -21,7 +21,7 @@ export default function ProjectDetail() {
                 alt="Globe icon"
                 width={1700}
                 height={60}
-                className="mb-10 w-full object-cover h-96"
+                className="mb-4 md:mb-10 w-full object-cover md:h-96 h-40"
             />
             <div className="flex flex-col md:flex-row w-full md:w-8/12 mx-auto pb-32">
                 <div className="w-full md:w-3/4 mt-2 pr-4">

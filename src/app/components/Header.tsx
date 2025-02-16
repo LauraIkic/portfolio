@@ -19,12 +19,12 @@ const Header = () => {
 
     const monthName = monthNames[mm];
     return (
-        <div className="">
+        <div className="hidden md:block">
             <div className="flex justify-between md:font-bold p-4 border-b border-black">
                 <p>{weekdayName}, {dd} . {monthName} {yyyy}</p>
                 <p>Vienna, Austria</p>
             </div>
-            <div className="flex justify-center md:pt-12 md:pb-8  text-bold md:text-4xl">
+            <div className="flex justify-center md:pt-12 md:pb-8 text-bold md:text-4xl">
                 Laura Ikic
             </div>
         </div>
