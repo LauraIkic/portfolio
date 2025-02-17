@@ -22,12 +22,12 @@ export default function Home() {
         type: 'link',
         link: 'mailto:laura@ikic.at',
     }
-    const linkResume =  {
-        title: 'Resume',
-        image: '',
-        type: 'internalLink',
-        link: 'https://www.linkedin.com/in/laura-ikic-aa62b021a/',
-    }
+    // const linkResume =  {
+    //     title: 'Resume',
+    //     image: '',
+    //     type: 'internalLink',
+    //     link: 'https://www.linkedin.com/in/laura-ikic-aa62b021a/',
+    // }
 
     return (
         <div className="flex flex-col lg:flex-row justify-center p-4">
@@ -39,7 +39,7 @@ export default function Home() {
                     Software Developer from Austria based in Vienna
                 </h1>
                 <span className="block text-center lg:text-left">
-                    I am a dedicated Software Developer with a strong passion for tackling complex challenges.
+                    I am a Software Developer with a strong passion for tackling complex challenges.
                 </span>
                 <div className="w-full pt-10 lg:pt-32">
                     <p className="text-secondary italic font-bold text-lg text-center lg:text-left">Get in touch</p>
@@ -47,7 +47,7 @@ export default function Home() {
                         <LinkItem link={linkGithub}/>
                         <LinkItem link={linkLikedIn}/>
                         <LinkItem link={linkMail}/>
-                        <LinkItem link={linkResume}/>
+                        {/*<LinkItem link={linkResume}/>*/}
                     </div>
                 </div>
             </div>
