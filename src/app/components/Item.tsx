@@ -26,14 +26,14 @@ const Item = ({ project }: ProjectProps) => {
     return (
         <article className="flex flex-col md:flex-row group m-4 border border-[#DFDFDF] hover:border hover:border-secondary p-4 transition-all duration-300">
             {project.image !== '' ? (
-                <div className="w-full sm:w-[350px] md:max-w-[250px] h-auto mb-4 md:mb-0 overflow-hidden">
+                <div className="w-full sm:max-w-[350px] md:max-w-[250px] h-auto mb-4 md:mb-0 overflow-hidden">
                     <Image
                         aria-hidden
                         src={image}
                         alt={title}
                         width={350}
                         height={350}
-                        className="object-cover transition-all sm:w-[350px] md:max-w-[250px] duration-300 transform group-hover:scale-105 grayscale-[0.8] group-hover:grayscale-0"
+                        className="object-cover transition-all sm:max-w-[350px] md:max-w-[250px] duration-300 transform group-hover:scale-105 grayscale-[0.8] group-hover:grayscale-0"
                     />
                 </div>)
              :null }

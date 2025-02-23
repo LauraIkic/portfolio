@@ -1,74 +1,130 @@
 [
-  {
-    "title": "Massive Art Fullstack Developer",
-    "name": "massiveArt",
-    "image": "",
-    "thumbnail": "/massiveArt.png",
-    "date": "JUL 2019 - CURRENT",
-    "description": "Developed and implemented customer solution software using Symfony and React, with a focus on e-commerce platforms. Contributed to the 'Value Force' initiative, promoting collaboration and ensuring the inclusion of diverse company locations.",
-    "icon": "",
-    "text": "",
-    "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
-    "externalLink" : "https://www.massiveart.com/",
-    "imageGallery": [
+   {
+      "title" : "Software Engineering",
+      "items" : [
+        {
+          "title": "Massive Art Fullstack Developer",
+          "name": "massiveArt",
+          "image": "",
+          "thumbnail": "/massiveArt.png",
+          "date": "JUL 2019 - CURRENT",
+          "description": "Developed and implemented customer solution software using Symfony and React, with a focus on e-commerce platforms. Contributed to the 'Value Force' initiative, promoting collaboration and ensuring the inclusion of diverse company locations.",
+          "icon": "",
+          "text": "",
+          "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
+          "externalLink" : "https://www.massiveart.com/",
+          "imageGallery": [
+          ],
+          "links": [
+          ]
+        },
+        {
+          "title": "Elements (Valantic) - Full Stack Developer",
+          "name": "elements",
+          "image": "",
+          "date": "APR 2022 - AUG 2022",
+          "thumbnail": "/elements.png",
+          "description": "Developed and maintained responsive and user‑friendly web applications for clients across various industries. Implemented back‑end solutions using technologies including PHP to handle server‑side logic and database interactions. Successfully implemented and leveraged Pimcore CMS in various client projects within the digital agency.",
+          "icon": "",
+          "text": "",
+          "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
+          "externalLink" : "https://www.valantic.com/at/blog/elements-schlaegt-als-valantic-austria-neues-kapitel-auf/",
+          "imageGallery": [
+          ],
+          "links": [
+          ]
+        },
+        {
+          "title": "Grand Garage - Frontend Developer",
+          "name": "grandGarage",
+          "image": "",
+          "date": "JUL 2020 - MAR 2022",
+          "thumbnail": "/grandGarage.png",
+          "description": "Planned, designed and developed new front‑end features. Started the website relaunch and set up the project’s architecture as well as the content management system (Storyblok). Supported a new front‑end trainee and mentored her.",
+          "icon": "",
+          "text": "",
+          "tools": ["JavaScript", "Vue.js", "Nuxt.js", "Storyblok"],
+          "externalLink" : "https://grandgarage.eu/",
+          "imageGallery": [
+          ],
+          "links": [
+          ]
+        }
+      ]
+    },
+    {
+    "title" : "Social",
+    "items" : [
       {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore.png"
+        "title": "Grand Garage - Front Office",
+        "name": "grandGarage",
+        "image": "",
+        "date": "JUL 2019 - JUN 2020",
+        "thumbnail": "/grandGarage.png",
+        "description": "Served as the primary point of contact at the Grand Garage, leading tours, offering expertise in 3D printing and laser cutting, and overseeing membership management.",
+        "icon": "",
+        "text": "",
+        "tools": ["Front Office"],
+        "externalLink" : "https://grandgarage.eu/",
+        "imageGallery": [
+        ],
+        "links": [
+        ]
       },
       {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore-1.png"
+        "title": "Au Pair - Florida Miami, US",
+        "name": "auPair",
+        "image": "",
+        "date": "SEP 2020 - MAR 2020",
+        "thumbnail": "",
+        "description": "I worked as an Au Pair for six months in Miami, where I joined an American family and helped care for their three children. My time was mainly spent playing with them and teaching them new things. It was an unforgettable experience, and I’m truly grateful for all the moments I had. I’m also thankful for the opportunity to improve my English skills throughout the experience.",
+        "icon": "",
+        "text": "",
+        "tools": [ "USA","Child Care"],
+        "externalLink" : "https://cultureCare.at",
+        "imageGallery": [
+        ],
+        "links": [
+        ]
       }
-    ],
-    "links": [
     ]
-  },
-  {
-    "title": "Elements (Valantic) - Full Stack Developer",
-    "name": "elements",
-    "image": "",
-    "date": "APR 2022 - AUG 2022",
-    "thumbnail": "/elements.png",
-    "description": "Developed and maintained responsive and user‑friendly web applications for clients across various industries. Implemented back‑end solutions using technologies including PHP to handle server‑side logic and database interactions. Successfully implemented and leveraged Pimcore CMS in various client projects within the digital agency.",
-    "icon": "",
-    "text": "",
-    "tools": ["PHP", "Symfony", "TypeScript", "React.js"],
-    "externalLink" : "https://www.valantic.com/at/blog/elements-schlaegt-als-valantic-austria-neues-kapitel-auf/",
-    "imageGallery": [
-      {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore.png"
-      },
-      {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore-1.png"
-      }
-    ],
-    "links": [
-    ]
-  },
-  {
-    "title": "Grand Garage - Frontend Developer",
-    "name": "grandGarage",
-    "image": "",
-    "date": "JUL 2019 - MAR 2022",
-    "thumbnail": "/grandGarage.png",
-    "description": "Planned, designed and developed new front‑end features. Started the website relaunch and set up the project’s architecture as well as the content management system (Storyblok). Supported a new front‑end trainee and mentored her.",
-    "icon": "",
-    "text": "",
-    "tools": ["JavaScript", "Vue.js", "Nuxt.js", "Storyblok"],
-    "externalLink" : "https://grandgarage.eu/",
-    "imageGallery": [
-      {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore.png"
-      },
-      {
-        "tile": "maker space image 1",
-        "src": "/arCore/arCore-1.png"
-      }
-    ],
-    "links": [
-    ]
-  }
+    }
+    ,
+    {
+      "title": "Technical Internships",
+      "items" : [
+        {
+          "title": "Technical Intern Tiger Drylac Inc. Guelph Ontario",
+          "name": "tigerDrylac",
+          "image": "",
+          "date": "Jul 2018",
+          "thumbnail": "",
+          "description": "Technical Intern in Guelph, Ontario – one of only two individuals selected for this incredible international experience. I had the opportunity to shadow various departments, including sales, customer service, the lab, and production. In the lab, I mixed dry lacquer powders and tested their quality. In production, I observed how the lab processes are scaled for mass production. This experience not only expanded my technical knowledge of powder color production but also deepened my understanding of the local culture and language.",
+          "icon": "",
+          "text": "",
+          "tools": [ "Canada", "Internship"],
+          "externalLink" : "https://cultureCare.at",
+          "imageGallery": [
+          ],
+          "links": [
+          ]
+        },
+        {
+          "title": "Siemens Internship",
+          "name": "siemens",
+          "image": "",
+          "date": "Jul 2016",
+          "thumbnail": "",
+          "description": "Technical Intern in Production, supporting transformer development. Responsibilities included preparing components for construction, installing piping systems, mounting ventilation fans, attaching ceramic coils, and various other tasks.",
+          "icon": "",
+          "text": "",
+          "tools": ["Transformers", "Production"],
+          "externalLink" : "https://siemens.at",
+          "imageGallery": [
+          ],
+          "links": [
+          ]
+        }
+      ]
+    }
 ]
