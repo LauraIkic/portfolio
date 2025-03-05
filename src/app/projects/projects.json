@@ -171,9 +171,7 @@
     "date": "",
     "description": "A PHP and Symfony-based registration site for Tesla coffee/bar, sending event sign-up data to organizers via email.",
     "icon": "",
-    "text": "The registration website was developed in collaboration with Tesla, a popular coffee bar, to streamline the event registration process. The website allowed users to easily sign up for an event hosted by Tesla, simplifying the process for both attendees and organizers.
-Built using PHP and Symfony, the site provided a user-friendly interface where attendees could fill out their personal details and submit their applications. Upon submission, the data was securely sent via email to the event organizers, ensuring that they received all necessary information for event planning and participant management.
-The design of the website was kept simple yet efficient, ensuring a smooth registration experience for users while making it easy for Tesla’s team to manage applications. The application form included validation to ensure accurate data entry, reducing errors in the registration process.",
+    "text": "The registration website was developed in collaboration with Tesla, a popular coffee bar, to streamline the event registration process. The website allowed users to easily sign up for an event hosted by Tesla, simplifying the process for both attendees and organizers. Built using PHP and Symfony, the site provided a user-friendly interface where attendees could fill out their personal details and submit their applications. Upon submission, the data was securely sent via email to the event organizers, ensuring that they received all necessary information for event planning and participant management. The design of the website was kept simple yet efficient, ensuring a smooth registration experience for users while making it easy for Tesla’s team to manage applications. The application form included validation to ensure accurate data entry, reducing errors in the registration process.",
     "tools": ["Symfony", "Vue.js" ,"Tailwind", "Platform.sh"],
     "imageGallery": [
       {
