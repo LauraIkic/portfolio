@@ -171,7 +171,9 @@
     "date": "",
     "description": "Enhancing the Makerspace Experience: A Collaboration with the Makerspace Grand Garage",
     "icon": "",
-    "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
+    "text": "The registration website was developed in collaboration with Tesla, a popular coffee bar, to streamline the event registration process. The website allowed users to easily sign up for an event hosted by Tesla, simplifying the process for both attendees and organizers.
+Built using PHP and Symfony, the site provided a user-friendly interface where attendees could fill out their personal details and submit their applications. Upon submission, the data was securely sent via email to the event organizers, ensuring that they received all necessary information for event planning and participant management.
+The design of the website was kept simple yet efficient, ensuring a smooth registration experience for users while making it easy for Tesla’s team to manage applications. The application form included validation to ensure accurate data entry, reducing errors in the registration process.",
     "tools": ["Symfony", "Vue.js" ,"Tailwind", "Platform.sh"],
     "imageGallery": [
       {
@@ -194,7 +196,7 @@
     "date": "",
     "description": "Portfolio",
     "icon": "",
-    "text": "The Makerspace app was developed as a collaboration between my university and the Makerspace Grand Garage in Linz. Makerspaces are places where people can learn new skills and create projects on their own.\n\nThe app allowed users to log in to their accounts and view their profile data, such as invoices and booked workshops. It also displayed upcoming workshops and showed badges earned from past workshops. The app was designed with gamification in mind to encourage users to complete more workshops by making the process more engaging.\n\nThere were plans for additional features, such as the ability to book workshops directly through the app and stay updated with community news.\n\nDeveloped using Swift, the app retrieved data from the Grand Garage’s internal backend through API calls, ensuring users had up-to-date information on workshops and their profiles.",
+    "text": "My personal portfolio serves as a digital showcase for my work and projects, offering a detailed overview of my skills and expertise. The portfolio includes a variety of projects that I have developed or contributed to, each demonstrating my ability to solve real-world problems",
     "tools": ["Nuxt.js", "Vue.js" ,"Tailwind", "Netlify"],
     "imageGallery": [
     ],
