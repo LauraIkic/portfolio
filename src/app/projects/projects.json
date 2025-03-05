@@ -169,7 +169,7 @@
     "image": "/speeddating/speeddating.png",
     "thumbnail" : "/speeddating/speeddatingThumbnail.png",
     "date": "",
-    "description": "Enhancing the Makerspace Experience: A Collaboration with the Makerspace Grand Garage",
+    "description": "A PHP and Symfony-based registration site for Tesla coffee/bar, sending event sign-up data to organizers via email.",
     "icon": "",
     "text": "The registration website was developed in collaboration with Tesla, a popular coffee bar, to streamline the event registration process. The website allowed users to easily sign up for an event hosted by Tesla, simplifying the process for both attendees and organizers.
 Built using PHP and Symfony, the site provided a user-friendly interface where attendees could fill out their personal details and submit their applications. Upon submission, the data was securely sent via email to the event organizers, ensuring that they received all necessary information for event planning and participant management.
@@ -194,7 +194,7 @@ The design of the website was kept simple yet efficient, ensuring a smooth regis
     "image": "/portfolio/portfolio.png",
     "thumbnail" : "/portfolio/portfolioThumbnail.png",
     "date": "",
-    "description": "Portfolio",
+    "description": "A personal portfolio showcasing my projects and skills, built with modern web technologies",
     "icon": "",
     "text": "My personal portfolio serves as a digital showcase for my work and projects, offering a detailed overview of my skills and expertise. The portfolio includes a variety of projects that I have developed or contributed to, each demonstrating my ability to solve real-world problems",
     "tools": ["Nuxt.js", "Vue.js" ,"Tailwind", "Netlify"],
