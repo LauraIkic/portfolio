@@ -24,7 +24,7 @@ interface ProjectProps {
 const Item = ({ project }: ProjectProps) => {
     const { image, title,date ,  description, tools } = project;
     return (
-        <article className="flex flex-col md:flex-row group m-4 border border-[#DFDFDF] hover:border hover:border-secondary p-4 transition-all duration-300">
+        <article className="flex flex-col md:flex-row group m-2 border border-[#DFDFDF] hover:border hover:border-secondary p-4 transition-all duration-300">
             {project.image !== '' ? (
                 <div className="w-full sm:max-w-[350px] md:max-w-[250px] h-auto mb-4 md:mb-0 overflow-hidden">
                     <Image

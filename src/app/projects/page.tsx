@@ -1,32 +1,34 @@
 'use client';
-import { useState, useEffect } from 'react';
-import projectsData from './projects.json';
+import { useState, useLayoutEffect } from 'react';
+import projectsData from './projects.json'; // Deine statische JSON-Datei
 import { Item } from '../components/Item';
 import Link from "next/link";
 
 export default function Page() {
-    const [isLoading, setIsLoading] = useState(true);
+    const [isRendered, setIsRendered] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsLoading(false);
-        }, 100);
+    useLayoutEffect(() => {
+        const handleRender = () => {
+            setIsRendered(true);
+        };
 
-        return () => clearTimeout(timer);
+        requestAnimationFrame(handleRender);
     }, []);
 
     return (
-        <div className="lg:w-1/2 sm-w-full mx-auto">
-            {isLoading ? (
+        <div className="lg:w-1/2 sm:w-full mx-auto">
+            {!isRendered ? (
                 <div className="flex justify-center items-center h-48">
                     <div className="w-10 h-10 border-2 border-t-transparent border-solid rounded-full animate-spin"></div>
                 </div>
             ) : (
-                projectsData.map((projectItem) => (
-                    <Link href={`/projects/${projectItem.name}`} key={projectItem.name}>
-                        <Item key={projectItem.name} project={projectItem} />
-                    </Link>
-                ))
+                <div className="grid grid-cols-1 mt-4">
+                    {projectsData.map((projectItem) => (
+                        <Link href={`/projects/${projectItem.name}`} key={projectItem.name}>
+                            <Item project={projectItem} />
+                        </Link>
+                    ))}
+                </div>
             )}
         </div>
     );
