@@ -1,6 +1,6 @@
 'use client';
 import { useState, useLayoutEffect } from 'react';
-import projectsData from './projects.json'; // Deine statische JSON-Datei
+import projectsData from './projects.json';
 import { Item } from '../components/Item';
 import Link from "next/link";
 

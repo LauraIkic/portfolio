@@ -1,5 +1,26 @@
 [
   {
+    "title": "Crypto Trading Platform (Backend)",
+    "name": "crypto",
+    "image": "/crypto/crypto.jpg",
+    "thumbnail": "/crypto/cryptoThumbnail.png",
+    "description": "Cryptocurrency Trading Platform with Java Spring Backend",
+    "icon": "",
+    "date": "",
+    "text": "I developed a dynamic cryptocurrency trading platform using Java Spring, designed to provide users with a secure and seamless experience. The system allows users to sign up, log in with JWT authentication, and manage their portfolio with ease. User data is safely stored in a MySQL database, ensuring privacy and security.\n\nThe platform integrates real-time cryptocurrency data through the Gecko API, which is then streamed to Kafka for continuous updates. Users can place orders to buy coins at live market prices, and these orders are added to a market where they are executed as soon as a matching buy/sell order is found. Once an order is completed, the purchased coins are added to the user’s portfolio, allowing them to track and manage their assets. While limit orders are not yet implemented, this feature is planned for future releases.\n\nThis project showcases my ability to combine various technologies, including Spring Boot, MySQL, Kafka, and external APIs, to create a robust, real-time application that provides a smooth and responsive user experience.",
+    "tools": ["Java", "Spring", "Kafka", "MySQL"],
+    "imageGallery": [
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "image": "",
+        "type": "link",
+        "link": "https://github.com/LauraIkic/Trading-plattform"
+      }
+    ]
+  },
+  {
   "title": "Ar project - City Guide App",
   "name": "ar",
   "image": "/arCore/arCore.png",
