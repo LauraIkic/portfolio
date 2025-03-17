@@ -20,7 +20,7 @@ export default function Home() {
         title: 'Send a Message',
         image: '',
         type: 'link',
-        link: 'mailto:laura@ikic.at',
+        link: 'mailto:ikic.laura@gmx.at',
     }
     // const linkResume =  {
     //     title: 'Resume',
